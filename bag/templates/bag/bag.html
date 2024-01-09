@@ -25,6 +25,10 @@
     <div class="row">
         <div class="col">
             {% if bag_items %}
+                {{ bag_items }}
+                <br>
+                <br>
+                {{ request.session.bag }}
                 <div class="table-responsive rounded d-none d-md-block">
                     <table class="table table-sm table-borderless">
                         <thead class="text-black">
@@ -51,7 +55,7 @@
                                     <p class="my-0">${{ item.product.price }}</p>
                                 </td>
                                 <td class="py-3 w-25">
-                                    <p class="my-0">{{ item.product.quantity }}</p>
+                                    <p class="my-0">{{ item.quantity }}</p>
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0">${{ item.product.price }}</p>
