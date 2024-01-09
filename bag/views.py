@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 def view_bag(request):
     """ A view to return bag contents page """
