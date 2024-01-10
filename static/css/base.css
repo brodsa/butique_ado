@@ -91,9 +91,10 @@ a.category-badge > span.badge:hover {
 
 .btt-link,
 .update-link,
-.remove-link {
+.remove-item {
     cursor: pointer;
 }
+
 
 /* -------------------------------- Media Queries */
 
