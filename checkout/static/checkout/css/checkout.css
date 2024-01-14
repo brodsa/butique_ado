@@ -38,6 +38,18 @@
     border: 1px solid #000;
 }
 
+/* Select button from dropdowns */
+select,
+select option {
+  color: #000;
+}
+
+select:invalid,
+select option[value=""]{
+  color: #aab7c4 ! important
+}
+
+
 /* Loading indication of being proccessed */
 #loading-overlay {
 	display: none;
