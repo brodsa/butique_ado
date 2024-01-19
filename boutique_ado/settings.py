@@ -32,7 +32,7 @@ DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = [
     '8000-brodsa-butiqueado-j9y9312cpjz.ws-eu107.gitpod.io',
-    'boutique-ado-sq.herokuapp.com',
+    'boutique-ado-sg-3f118d8c0dcc.herokuapp.com',
     ]
 
 
