@@ -28,10 +28,7 @@ if os.path.isfile('env.py'):
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if 'DEBUG' in os.environ:
-    DEBUG = True
-else:
-    DEBUG = False
+DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = [
     '8000-brodsa-butiqueado-j9y9312cpjz.ws-eu107.gitpod.io',
