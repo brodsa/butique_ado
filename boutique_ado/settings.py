@@ -185,7 +185,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-if 'AW_USE' in os.environ:
+if 'AWS_USE' in os.environ:
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'boutique-ado-sg'
     AWS_S3_REGION_NAME = 'eu-north-1'
